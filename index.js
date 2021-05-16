@@ -14,7 +14,7 @@ class Formatter {
      let res = [];
      let arr = str.split( " " )
      for ( let i = 0; i < arr.length; i++ ) {
-       if ( n == 0 ) {
+       if ( i == 0 ) {
          res.push( this.capitalize(arr[i]))
        } else {
          if (word.includes(arr[i])) {
