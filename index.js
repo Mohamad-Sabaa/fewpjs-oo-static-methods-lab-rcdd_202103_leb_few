@@ -25,6 +25,6 @@ class Formatter {
        }
 
      }
-     return result.join( " " );
+     return res.join( " " );
    }
  }
