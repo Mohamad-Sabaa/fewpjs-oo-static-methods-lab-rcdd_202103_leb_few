@@ -20,7 +20,7 @@ class Formatter {
          if (word.includes(arr[i])) {
            res.push(arr[i])
          } else {
-           result.push(this.capitalize(arr[i]))
+           res.push(this.capitalize(arr[i]))
          }
        }
 
